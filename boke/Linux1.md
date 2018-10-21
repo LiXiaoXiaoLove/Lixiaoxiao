@@ -1,66 +1,66 @@
-## LinuxµÄÔËĞĞ¼¶±ğ
-    * ÅäÖÃÎÄ¼ş
+## Linuxçš„è¿è¡Œçº§åˆ«
+    * é…ç½®æ–‡ä»¶
 	  ![](https://upload-images.jianshu.io/upload_images/14466013-6f6e17b57b5ce608.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	* ²é¿´ÔËĞĞ¼¶±ğ
-		* Ê¹ÓÃrunlevelÃüÁî£¬·Ö±ğÏÔÊ¾£ºÇĞ»»Ç°µÄÔËĞĞ¼¶±ğ¡¢µ±Ç°µÄÔËĞĞ¼¶±ğ£¨n ±íÊ¾Ö®Ç°Î´ÇĞ»»¹ıÔËĞĞ¼¶±ğ£©
-		  ![Í¼1.1](https://upload-images.jianshu.io/upload_images/14466013-63c92e5d0d84206e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)![image.png](https://upload-images.jianshu.io/upload_images/14466013-63c92e5d0d84206e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	* ÁÙÊ±ÇĞ»»ÔËĞĞ¼¶±ğÁÙÊ±ÇĞ»»ÔËĞĞ¼¶±ğ
-	    *  Ê¹ÓÃinitÃüÁî½áºÏ0-6ÔËĞĞ¼¶±ğ²ÎÊı
-		   ![Í¼1.2](https://upload-images.jianshu.io/upload_images/14466013-79eb308a1b11e70e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	* hostnameÃüÁî
-        * ²é¿´µ±Ç°Ö÷»úÃû
-		  ![Í¼1.3](https://upload-images.jianshu.io/upload_images/14466013-e355bae5b59d54c9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-		* ÁÙÊ±ĞŞ¸Ä(Ò»´ÎĞÔĞŞ¸Ä£¬ÖØÆôºó±ä»ØÔ­À´µÄ)
-		  ![Í¼1.4](https://upload-images.jianshu.io/upload_images/14466013-bc28ff7bd903755f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-		*  ÓÀ¾ÃĞŞ¸Ä£¨ĞŞ¸ÄÅäÖÃÎÄ¼ş£©
-			*  /etc/hostnameÎÄ¼ş
-			*  ÓÃÍ¾£º±£´æÈ«¾ÖÍøÂçÉèÖÃ£¬Ö÷Òª°üÀ¨Ö÷»úÃûĞÅÏ¢
-			* ²½Öè
-				* Ê¹ÓÃviÃüÁî½øÈëµ½ÅäÖÃÎÄ¼ş
-				* °´i ¼üºó½øĞĞ±à¼­£¬Ö®ºóÏÈ°´esc ¼üÍË³ö±à¼­×´Ì¬£¬ÔÚ°´:wq½øĞĞ±£´æÍË³ö
-				* ÖØÆôºó²ÅÄÜ¿´µ½Ğ§¹û
-				  ![Í¼1.4](https://upload-images.jianshu.io/upload_images/14466013-5c94c2d3c1a3e04b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-		* ### ×¢ÒâÈ¨ÏŞÎÊÌâ£¬root²ÅÓµÓĞĞŞ¸ÄÖ÷»úÃûµÄÈ¨ÏŞ
-			* ´ÓÓÃ»§ÇĞ»»µ½rootÓÃ»§
-			   ![Í¼1.5](https://upload-images.jianshu.io/upload_images/14466013-e121d710522d5026.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-			* ĞŞ¸ÄÍêÔÚ´ÓrootÓÃ»§ÇĞ»ØÔ­ÓÃ»§
-			   ![Í¼1.6](https://upload-images.jianshu.io/upload_images/14466013-44e5e44f5b0ccd2e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	* pingÃüÁî
-		* ²âÊÔÍøÂçÁ¬Í¨ĞÔ
-		* ¸ñÊ½£ºping [Ñ¡Ïî] Ä¿±êÖ÷»ú
-		* ctrl + c ÖÕÖ¹²âÊÔ
-		  ![Í¼1.7](https://upload-images.jianshu.io/upload_images/14466013-4b6852e5ef4d6f4a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+	* æŸ¥çœ‹è¿è¡Œçº§åˆ«
+		* ä½¿ç”¨runlevelå‘½ä»¤ï¼Œåˆ†åˆ«æ˜¾ç¤ºï¼šåˆ‡æ¢å‰çš„è¿è¡Œçº§åˆ«ã€å½“å‰çš„è¿è¡Œçº§åˆ«ï¼ˆn è¡¨ç¤ºä¹‹å‰æœªåˆ‡æ¢è¿‡è¿è¡Œçº§åˆ«ï¼‰
+		  ![å›¾1.1](https://upload-images.jianshu.io/upload_images/14466013-63c92e5d0d84206e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)![image.png](https://upload-images.jianshu.io/upload_images/14466013-63c92e5d0d84206e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+	* ä¸´æ—¶åˆ‡æ¢è¿è¡Œçº§åˆ«ä¸´æ—¶åˆ‡æ¢è¿è¡Œçº§åˆ«
+	    *  ä½¿ç”¨initå‘½ä»¤ç»“åˆ0-6è¿è¡Œçº§åˆ«å‚æ•°
+		   ![å›¾1.2](https://upload-images.jianshu.io/upload_images/14466013-79eb308a1b11e70e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+	* hostnameå‘½ä»¤
+        * æŸ¥çœ‹å½“å‰ä¸»æœºå
+		  ![å›¾1.3](https://upload-images.jianshu.io/upload_images/14466013-e355bae5b59d54c9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+		* ä¸´æ—¶ä¿®æ”¹(ä¸€æ¬¡æ€§ä¿®æ”¹ï¼Œé‡å¯åå˜å›åŸæ¥çš„)
+		  ![å›¾1.4](https://upload-images.jianshu.io/upload_images/14466013-bc28ff7bd903755f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+		*  æ°¸ä¹…ä¿®æ”¹ï¼ˆä¿®æ”¹é…ç½®æ–‡ä»¶ï¼‰
+			*  /etc/hostnameæ–‡ä»¶
+			*  ç”¨é€”ï¼šä¿å­˜å…¨å±€ç½‘ç»œè®¾ç½®ï¼Œä¸»è¦åŒ…æ‹¬ä¸»æœºåä¿¡æ¯
+			* æ­¥éª¤
+				* ä½¿ç”¨viå‘½ä»¤è¿›å…¥åˆ°é…ç½®æ–‡ä»¶
+				* æŒ‰i é”®åè¿›è¡Œç¼–è¾‘ï¼Œä¹‹åå…ˆæŒ‰esc é”®é€€å‡ºç¼–è¾‘çŠ¶æ€ï¼Œåœ¨æŒ‰:wqè¿›è¡Œä¿å­˜é€€å‡º
+				* é‡å¯åæ‰èƒ½çœ‹åˆ°æ•ˆæœ
+				  ![å›¾1.4](https://upload-images.jianshu.io/upload_images/14466013-5c94c2d3c1a3e04b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+		* ### æ³¨æ„æƒé™é—®é¢˜ï¼Œrootæ‰æ‹¥æœ‰ä¿®æ”¹ä¸»æœºåçš„æƒé™
+			* ä»ç”¨æˆ·åˆ‡æ¢åˆ°rootç”¨æˆ·
+			   ![å›¾1.5](https://upload-images.jianshu.io/upload_images/14466013-e121d710522d5026.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+			* ä¿®æ”¹å®Œåœ¨ä»rootç”¨æˆ·åˆ‡å›åŸç”¨æˆ·
+			   ![å›¾1.6](https://upload-images.jianshu.io/upload_images/14466013-44e5e44f5b0ccd2e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+	* pingå‘½ä»¤
+		* æµ‹è¯•ç½‘ç»œè¿é€šæ€§
+		* æ ¼å¼ï¼šping [é€‰é¡¹] ç›®æ ‡ä¸»æœº
+		* ctrl + c ç»ˆæ­¢æµ‹è¯•
+		  ![å›¾1.7](https://upload-images.jianshu.io/upload_images/14466013-4b6852e5ef4d6f4a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	* ifconfig
-		* ²é¿´ËùÓĞ»î¶¯ÍøÂç½Ó¿ÚµÄĞÅÏ¢
-		   ![Í¼1.6](https://upload-images.jianshu.io/upload_images/14466013-d9125068b290b4a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-		* ²é¿´Ö¸¶¨ÍøÂç½Ó¿ÚĞÅÏ¢
-			* ¸ñÊ½£ºifconfig IP
-		* Ifconfig²»ÄÜÓÃ£¬Ê¹ÓÃyumÃüÁî
+		* æŸ¥çœ‹æ‰€æœ‰æ´»åŠ¨ç½‘ç»œæ¥å£çš„ä¿¡æ¯
+		   ![å›¾1.6](https://upload-images.jianshu.io/upload_images/14466013-d9125068b290b4a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+		* æŸ¥çœ‹æŒ‡å®šç½‘ç»œæ¥å£ä¿¡æ¯
+			* æ ¼å¼ï¼šifconfig IP
+		* Ifconfigä¸èƒ½ç”¨ï¼Œä½¿ç”¨yumå‘½ä»¤
 			* yum install net-tools -y
-	* ÉèÖÃ·À»ğÇ½
-        * ²é¿´·À»ğÇ½×´Ì¬
+	* è®¾ç½®é˜²ç«å¢™
+        * æŸ¥çœ‹é˜²ç«å¢™çŠ¶æ€
 			* service firewalld status
 			![](https://upload-images.jianshu.io/upload_images/14466013-ed0a6797af818bf5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-		* ÁÙÊ±¹Ø±Õ·À»ğÇ½
+		* ä¸´æ—¶å…³é—­é˜²ç«å¢™
 			* systemctl stop firewalld
 			![](https://upload-images.jianshu.io/upload_images/14466013-346bddfcb16a8e85.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
- 		* ÓÀ¾Ã¹Ø±Õ·À»ğÇ½
-			* ĞŞ¸ÄÅäÖÃÎÄ¼ş
-	* ±¾µØÖ÷»úÓ³ÉäÎÄ¼ş
-		* ÓÃÍ¾£º±£´æÖ÷»úÃûÓëIPµØÖ·µÄÓ³Éä¼ÇÂ¼
-		* ²é¿´
+ 		* æ°¸ä¹…å…³é—­é˜²ç«å¢™
+			* ä¿®æ”¹é…ç½®æ–‡ä»¶
+	* æœ¬åœ°ä¸»æœºæ˜ å°„æ–‡ä»¶
+		* ç”¨é€”ï¼šä¿å­˜ä¸»æœºåä¸IPåœ°å€çš„æ˜ å°„è®°å½•
+		* æŸ¥çœ‹
 		  ![](https://upload-images.jianshu.io/upload_images/14466013-819b4de6c879e530.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	* ÉèÖÃÍøÂçĞÅÏ¢
-		* ²é¿´
+	* è®¾ç½®ç½‘ç»œä¿¡æ¯
+		* æŸ¥çœ‹
 		 ![](https://upload-images.jianshu.io/upload_images/14466013-2cde392efeb633ba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	* ÉèÖÃSELinux
-		* ÊÇÃÀ¹ú°²È«¾Ö¿ª·¢µÄ£¬°²È«¼¶±ğºÜ¸ß£¬²»½øĞĞÉèÖÃ£¬ÓĞÊ±ºòÏÂÔØ¶«Î÷Ê±»á²»ÈÃÏÂÔØ
+	* è®¾ç½®SELinux
+		* æ˜¯ç¾å›½å®‰å…¨å±€å¼€å‘çš„ï¼Œå®‰å…¨çº§åˆ«å¾ˆé«˜ï¼Œä¸è¿›è¡Œè®¾ç½®ï¼Œæœ‰æ—¶å€™ä¸‹è½½ä¸œè¥¿æ—¶ä¼šä¸è®©ä¸‹è½½
 		![](https://upload-images.jianshu.io/upload_images/14466013-70fa95938ac76186.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-		* ²é¿´SElinux£¬¿ÉÄÜ·µ»ØµÄ½á¹ûÓĞÈıÖÖ
-			* Enforcing£ºÇ¿ÖÆÄ£Ê½£¬´ú±í¼ÇÂ¼°²È«¾¯¸æÇÒ×èÖ¹¿ÉÒÉĞĞÎª
-			* Permissive£º¿íÈİÄ£Ê½£¬´ú±í¼ÇÂ¼°²È«¾¯¸æµ«²»×èÖ¹¿ÉÒÉĞĞÎª
-			* Disable£º¹Ø±Õ
-		* ÁÙÊ±ĞŞ¸Ä
+		* æŸ¥çœ‹SElinuxï¼Œå¯èƒ½è¿”å›çš„ç»“æœæœ‰ä¸‰ç§
+			* Enforcingï¼šå¼ºåˆ¶æ¨¡å¼ï¼Œä»£è¡¨è®°å½•å®‰å…¨è­¦å‘Šä¸”é˜»æ­¢å¯ç–‘è¡Œä¸º
+			* Permissiveï¼šå®½å®¹æ¨¡å¼ï¼Œä»£è¡¨è®°å½•å®‰å…¨è­¦å‘Šä½†ä¸é˜»æ­¢å¯ç–‘è¡Œä¸º
+			* Disableï¼šå…³é—­
+		* ä¸´æ—¶ä¿®æ”¹
 		  ![](https://upload-images.jianshu.io/upload_images/14466013-9cb3bced3356402e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-		* ÓÀ¾ÃĞŞ¸Ä
+		* æ°¸ä¹…ä¿®æ”¹
 		  ![](https://upload-images.jianshu.io/upload_images/14466013-840d2470a673ba95.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
