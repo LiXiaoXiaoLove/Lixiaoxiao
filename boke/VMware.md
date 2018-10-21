@@ -9,8 +9,8 @@
 	### 安装虚拟机：
 * 安装VMware
 ### 注意：安装虚拟机时出现图1.1说明该电脑没有开启虚拟化，自己开启一下就好，操作如图1.2
-    ![图1.1](https://upload-images.jianshu.io/upload_images/14466013-3eed13d736c1432d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-    ![图1.2](https://upload-images.jianshu.io/upload_images/14466013-616752dc237aad00.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) 
+![图1.1](https://upload-images.jianshu.io/upload_images/14466013-3eed13d736c1432d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![图1.2](https://upload-images.jianshu.io/upload_images/14466013-616752dc237aad00.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) 
 * 安装完成之后，按许可证，把注册机里的注册码复制粘贴就完事
 * 打开，创建新的虚拟机
   * 自定义
