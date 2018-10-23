@@ -1,10 +1,10 @@
 ## welcome my word
-- Linux
-	- [Linux的起源与发展](Linux)
-	- [Linux环境的安装与配置](VMware)
-	- [Linux的运行级别](Linux1)
-	- [Linux命令的基本格式](Linux2)
-		- [目录操作](mulu)
-		- [文件操作](文件)
-		- [文件内容操作](wenjianneirong)
-		- [文件的压缩命令](yasuo)
+* Linux
+	* [Linux的起源与发展](Linux)
+	* [Linux环境的安装与配置](VMware)
+	* [Linux的运行级别](Linux1)
+	* [Linux命令的基本格式](Linux2)
+		* [目录操作](mulu)
+		* [文件操作](文件)
+		* [文件内容操作](wenjianneirong)
+		* [文件的压缩命令](yasuo)
