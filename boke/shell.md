@@ -170,21 +170,21 @@
 	
 * eg：
 ```
-``` #在 /home/yyc/bin下新建一个shell文件
+#在 /home/yyc/bin下新建一个shell文件
 touch lxxtar.sh
-``` #进入文件内进行编辑
+#进入文件内进行编辑
 vim lxxtar.sh
-``` #把压缩包的路径放置在一个文件内
+#把压缩包的路径放置在一个文件内
 ls $1*.gz > /home/yyc/bin/tar.log
-``` #循环该文件
+#循环该文件
 for file in $(cat /home/yyc/bin/tar.log)
-``` #进行解压操作
+#进行解压操作
 do
 	tar -zxf $file
 	echo "$file已解压完成"
 done
 
-``` #运行该脚步
+#运行该脚步
 . lxxtar.sh /home/yyc/tar/
 
 ```
