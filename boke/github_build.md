@@ -12,8 +12,8 @@
 2. psw
 3. cd Destop/
 4. git clone 博客名（来自如下）(直接克隆克隆不到，需要先生成公钥)
-    ![图1](https://upload*images.jianshu.io/upload_images/14466013*28f10969a92c739d.png?imageMogr2/auto*orient/strip%7CimageView2/2/w/1240)
-    ![图2](https://upload*images.jianshu.io/upload_images/14466013*4e6886f09dbe9033.png?imageMogr2/auto*orient/strip%7CimageView2/2/w/1240)
+    ![图1](https://upload-images.jianshu.io/upload_images/14466013-28f10969a92c739d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![图2](https://upload-images.jianshu.io/upload_images/14466013-4e6886f09dbe9033.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 5. ssh*keygen *t rsa *C "邮箱名" 生成博客的公钥（按三次回车,得到一个文件，把文件里的公钥copy到博客里（点击用户的setting，找到SSH and GPG keys ,找到 New SSH key,copy进去））））））））
     ![图3](https://upload*images.jianshu.io/upload_images/14466013*5820719bdee93fd8.png?imageMogr2/auto*orient/strip%7CimageView2/2/w/1240)
 6. git clone 博客名（来自如下）
@@ -32,46 +32,6 @@
 16. git push *u origin master(把文件上传)
 
 ### Markdown语法
-<<<<<<< HEAD
-*[Markdown语法](https://guides.github.com/features/mastering*markdown/)
-_Markdown是一种在网络上设置文字样式的方法_
-=======
-* [Markdown帮助教程](https://guides.github.com/features/mastering*markdown/)
-* Markdown是一种在网络上设置文字样式的方法 
->>>>>>> 1f92e7374cdb5c796ee69863142669826f7af5b4
-1. 头：(1~6)
-#
-##
-###
-<<<<<<< HEAD
+*[Markdown语法](https://guides.github.com/features/mastering-markdown/)
+* [Markdown帮助教程](https://guides.github.com/features/mastering-markdown/)
 
-2. 重点
-
-*斜体*
-=======
-
-2. 重点
->>>>>>> 1f92e7374cdb5c796ee69863142669826f7af5b4
-
-*斜体*
-
-__加粗__
-
-3. 清单
-<<<<<<< HEAD
-  * 有序
-      *
-  1. 无序
-      1.
-=======
-   * 有序
-   1. 无序
->>>>>>> 1f92e7374cdb5c796ee69863142669826f7af5b4
-4. 图片
-  * ![图片名](url)
-5. 链接
-  * [链接名]()
-6. 引用文字
-  
-  > 我是我
-  > 独一无二的我
