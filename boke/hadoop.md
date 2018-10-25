@@ -17,10 +17,10 @@
 #hadoop的命令
 * hadoop jar ~/hadoop-2.7.3/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.3.jar grep 
 #从input文件里读取
-input/ 
+  input/ 
 #结果输出到output中
-output/ 
+  output/ 
 #正则表达式
-'dfs[a-z]+'
+  'dfs[a-z]+'
 
 ```
