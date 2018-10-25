@@ -32,7 +32,7 @@
 			
 ![图1.4](https://upload*images.jianshu.io/upload_images/14466013*5c94c2d3c1a3e04b.png?imageMogr2/auto*orient/strip%7CimageView2/2/w/1240)
 	
-	* ### 注意权限问题，root才拥有修改主机名的权限
+	* 注意权限问题，root才拥有修改主机名的权限
 		* 从用户切换到root用户
 		
 ![图1.5](https://upload*images.jianshu.io/upload_images/14466013*e121d710522d5026.png?imageMogr2/auto*orient/strip%7CimageView2/2/w/1240)
