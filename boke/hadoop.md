@@ -17,5 +17,8 @@
    #hadoop的命令，从input文件里读取，结果输出到output中，正则表达式
    hadoop jar ~/hadoop-2.7.3/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.3.jar 
 		grep input/ output/ 'dfs[a-z]+'
+   
+   hadoop jar /home/yyc/hadoop-2.7.3/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.3.jar 
+		wordcount /home/yyc/lxxdate/test.txt /home/yyc/lxxput
 
 ```
