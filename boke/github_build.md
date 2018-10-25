@@ -32,6 +32,5 @@
 16. git push *u origin master(把文件上传)
 
 ### Markdown语法
-*[Markdown语法](https://guides.github.com/features/mastering-markdown/)
 * [Markdown帮助教程](https://guides.github.com/features/mastering-markdown/)
 
