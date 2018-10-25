@@ -8,7 +8,7 @@
 	* 命令模式
 	* 插入模式
 	* 末行模式
-	![三者的关系](https://upload*images.jianshu.io/upload_images/14466013*8b644f27f7d509d0.png?imageMogr2/auto*orient/strip%7CimageView2/2/w/1240)
+	![三者的关系](https://upload-images.jianshu.io/upload_images/14466013-8b644f27f7d509d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 * 插入命令
 	* i：在光标前插入
 	* I：在光标当前行的开始处插入
