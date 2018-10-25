@@ -15,6 +15,6 @@
    若测试hadoop命令成功，则环境配置完成
 4. hadoop使用mapreduce计算了我们hadoop的配置文件的匹配内容
 #hadoop的命令，从input文件里读取，结果输出到output中，正则表达式
-	hadoop jar ~/hadoop-2.7.3/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.3.jar grep input/ output/ 'dfs[a-z]+'
+hadoop jar ~/hadoop-2.7.3/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.3.jar grep input/ output/ 'dfs[a-z]+'
 
 ```
