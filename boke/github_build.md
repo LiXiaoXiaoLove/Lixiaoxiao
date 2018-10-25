@@ -1,36 +1,36 @@
-## ×Ô¼º´´½¨²©¿Í
+## è‡ªå·±åˆ›å»ºåšå®¢
 
-### ¹ØÓÚLinux
-1. pwd ÏÔÊ¾µ±Ç°Ä¿Â¼
-2. cd ÇĞ»»µ±Ç°Ä¿Â¼µ½ÆäËûÄ¿Â¼
-3. cd / ½øÈë¸ùÄ¿Â¼
-4. cd ~ ½øÈë¼ÒÄ¿Â¼£¨¹ÜÀíÔ±Éí·İ½øÈëµ½/root/,ÆÕÍ¨ÓÃ»§½øÈëµ½/home/£©
-5. mkdir ÎÄ¼şÃû ´´½¨ÎÄ¼ş¼Ğ
+### å…³äºLinux
+1. pwd æ˜¾ç¤ºå½“å‰ç›®å½•
+2. cd åˆ‡æ¢å½“å‰ç›®å½•åˆ°å…¶ä»–ç›®å½•
+3. cd / è¿›å…¥æ ¹ç›®å½•
+4. cd ~ è¿›å…¥å®¶ç›®å½•ï¼ˆç®¡ç†å‘˜èº«ä»½è¿›å…¥åˆ°/root/,æ™®é€šç”¨æˆ·è¿›å…¥åˆ°/home/ï¼‰
+5. mkdir æ–‡ä»¶å åˆ›å»ºæ–‡ä»¶å¤¹
 
-### ÓÃgit Bash ²Ù×÷²©¿Í
-1. cd ~ (ÒòÎªÓÃ´ËÓï¾ä£¬ÏÂÃæµÄµ¥´Ê¿ÉÒÔÓÃtab×Ô¶¯²¹Æë)
+### ç”¨git Bash æ“ä½œåšå®¢
+1. cd ~ (å› ä¸ºç”¨æ­¤è¯­å¥ï¼Œä¸‹é¢çš„å•è¯å¯ä»¥ç”¨tabè‡ªåŠ¨è¡¥é½)
 2. psw
 3. cd Destop/
-4. git clone ²©¿ÍÃû£¨À´×ÔÈçÏÂ£©(Ö±½Ó¿ËÂ¡¿ËÂ¡²»µ½£¬ĞèÒªÏÈÉú³É¹«Ô¿)
-    ![Í¼1](https://upload-images.jianshu.io/upload_images/14466013-28f10969a92c739d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-    ![Í¼2](https://upload-images.jianshu.io/upload_images/14466013-4e6886f09dbe9033.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-5. ssh*keygen *t rsa *C "ÓÊÏäÃû" Éú³É²©¿ÍµÄ¹«Ô¿£¨°´Èı´Î»Ø³µ,µÃµ½Ò»¸öÎÄ¼ş£¬°ÑÎÄ¼şÀïµÄ¹«Ô¿copyµ½²©¿ÍÀï£¨µã»÷ÓÃ»§µÄsetting£¬ÕÒµ½SSH and GPG keys ,ÕÒµ½ New SSH key,copy½øÈ¥£©£©£©£©£©£©£©£©
-    ![Í¼3](https://upload*images.jianshu.io/upload_images/14466013*5820719bdee93fd8.png?imageMogr2/auto*orient/strip%7CimageView2/2/w/1240)
-6. git clone ²©¿ÍÃû£¨À´×ÔÈçÏÂ£©
-    ![Í¼4](https://upload*images.jianshu.io/upload_images/14466013*ecfaa6d6ac910085.png?imageMogr2/auto*orient/strip%7CimageView2/2/w/1240)
-7. cd ²©¿ÍÎÄ¼ş¼ĞÃû ½øÈë²©¿ÍÎÄ¼ş¼ĞÖĞ
-8. ls ²é¿´µ±Ç°ÎÄ¼ş¼ĞÀïµÄÎÄ¼ş
-9. git status ²é¿´×´Ì¬Âë
-10. touch ÎÄ¼şÃû.md (´´½¨ÎÄ¼ş£¬²¢±àĞ´ÎÄ¼ş)
-11. git add ÎÄ¼şÃû.md (°ÑÄÚÈİ·Å½ø»º³åÇø)
-12. git commit *m "first commit" (·ÀÖ¹½øĞĞÕâ²½²Ù×÷Ê±ÏµÍ³±ÀÀ££¬ºÃ»Øµ½ÉÏÒ»²½)
-    ![Í¼5](https://upload*images.jianshu.io/upload_images/14466013*85782962832436fb.png?imageMogr2/auto*orient/strip%7CimageView2/2/w/1240)
-13. git config **global user.email "ÓÊÏäÃû"
-14. git config **global user.name "²©¿ÍÃû"
+4. git clone åšå®¢åï¼ˆæ¥è‡ªå¦‚ä¸‹ï¼‰(ç›´æ¥å…‹éš†å…‹éš†ä¸åˆ°ï¼Œéœ€è¦å…ˆç”Ÿæˆå…¬é’¥)
+    ![å›¾1](https://upload-images.jianshu.io/upload_images/14466013-28f10969a92c739d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![å›¾2](https://upload-images.jianshu.io/upload_images/14466013-4e6886f09dbe9033.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+5. ssh*keygen *t rsa *C "é‚®ç®±å" ç”Ÿæˆåšå®¢çš„å…¬é’¥ï¼ˆæŒ‰ä¸‰æ¬¡å›è½¦,å¾—åˆ°ä¸€ä¸ªæ–‡ä»¶ï¼ŒæŠŠæ–‡ä»¶é‡Œçš„å…¬é’¥copyåˆ°åšå®¢é‡Œï¼ˆç‚¹å‡»ç”¨æˆ·çš„settingï¼Œæ‰¾åˆ°SSH and GPG keys ,æ‰¾åˆ° New SSH key,copyè¿›å»ï¼‰ï¼‰ï¼‰ï¼‰ï¼‰ï¼‰ï¼‰ï¼‰
+    ![å›¾3](https://upload*images.jianshu.io/upload_images/14466013*5820719bdee93fd8.png?imageMogr2/auto*orient/strip%7CimageView2/2/w/1240)
+6. git clone åšå®¢åï¼ˆæ¥è‡ªå¦‚ä¸‹ï¼‰
+    ![å›¾4](https://upload*images.jianshu.io/upload_images/14466013*ecfaa6d6ac910085.png?imageMogr2/auto*orient/strip%7CimageView2/2/w/1240)
+7. cd åšå®¢æ–‡ä»¶å¤¹å è¿›å…¥åšå®¢æ–‡ä»¶å¤¹ä¸­
+8. ls æŸ¥çœ‹å½“å‰æ–‡ä»¶å¤¹é‡Œçš„æ–‡ä»¶
+9. git status æŸ¥çœ‹çŠ¶æ€ç 
+10. touch æ–‡ä»¶å.md (åˆ›å»ºæ–‡ä»¶ï¼Œå¹¶ç¼–å†™æ–‡ä»¶)
+11. git add æ–‡ä»¶å.md (æŠŠå†…å®¹æ”¾è¿›ç¼“å†²åŒº)
+12. git commit *m "first commit" (é˜²æ­¢è¿›è¡Œè¿™æ­¥æ“ä½œæ—¶ç³»ç»Ÿå´©æºƒï¼Œå¥½å›åˆ°ä¸Šä¸€æ­¥)
+    ![å›¾5](https://upload*images.jianshu.io/upload_images/14466013*85782962832436fb.png?imageMogr2/auto*orient/strip%7CimageView2/2/w/1240)
+13. git config **global user.email "é‚®ç®±å"
+14. git config **global user.name "åšå®¢å"
 15. git commit *m "first commit"
-    ![Í¼6](https://upload*images.jianshu.io/upload_images/14466013*be3910c6ce2eff67.png?imageMogr2/auto*orient/strip%7CimageView2/2/w/1240)
-16. git push *u origin master(°ÑÎÄ¼şÉÏ´«)
+    ![å›¾6](https://upload*images.jianshu.io/upload_images/14466013*be3910c6ce2eff67.png?imageMogr2/auto*orient/strip%7CimageView2/2/w/1240)
+16. git push *u origin master(æŠŠæ–‡ä»¶ä¸Šä¼ )
 
-### MarkdownÓï·¨
-* [Markdown°ïÖú½Ì³Ì](https://guides.github.com/features/mastering-markdown/)
+### Markdownè¯­æ³•
+* [Markdownå¸®åŠ©æ•™ç¨‹](https://guides.github.com/features/mastering-markdown/)
 
