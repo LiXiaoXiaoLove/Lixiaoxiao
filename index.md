@@ -1,4 +1,4 @@
 ## welcome my word
 
-* [Linux]()
+* [Linux](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linuxIndex)
 	
