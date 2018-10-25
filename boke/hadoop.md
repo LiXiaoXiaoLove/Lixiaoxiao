@@ -1,20 +1,20 @@
-## µ¥½ÚµãhadoopµÄ»·¾³ÅäÖÃ
+## å•èŠ‚ç‚¹hadoopçš„ç¯å¢ƒé…ç½®
 
-* ÓÃyycÓÃ»§µÇÂ¼ÅäÖÃ»·¾³
-* hadoopÊÇÒÀÀµÓÚjava
+* ç”¨yycç”¨æˆ·ç™»å½•é…ç½®ç¯å¢ƒ
+* hadoopæ˜¯ä¾èµ–äºjava
 ```
-1. java»·¾³£¨jdk°²×°°ü£©
-2. jar.gzÏÂÔØ½âÑ¹
-	°Ñ½âÑ¹»òµÄÎÄ¼ş·ÅÔÚÓÃ»§µÄ¸ùÄ¿Â¼ÏÂ£¬
-	½øÈëµ½hadoopµÄbinÄ¿Â¼ÏÂ£¬¿ÉÒÔÖ´ĞĞhadoopÃüÁî£¬
-	µ«²»ÔÚ¸ÃÄ¿Â¼ÏÂ¾Í²»ÄÜÖ´ĞĞ
-3. hadoopµÄ»·¾³±äÁ¿PATH---¡· hadoopµÄÃüÁîÔÚÄÄÄÜÊ¹ÓÃ bin: sbin
-   ÔÚ¸ùÄ¿Â¼ÏÂµÄ.bash_profileÅäÖÃÎÄ¼şÀïÅäÖÃ
+1. javaç¯å¢ƒï¼ˆjdkå®‰è£…åŒ…ï¼‰
+2. jar.gzä¸‹è½½è§£å‹
+	æŠŠè§£å‹æˆ–çš„æ–‡ä»¶æ”¾åœ¨ç”¨æˆ·çš„æ ¹ç›®å½•ä¸‹ï¼Œ
+	è¿›å…¥åˆ°hadoopçš„binç›®å½•ä¸‹ï¼Œå¯ä»¥æ‰§è¡Œhadoopå‘½ä»¤ï¼Œ
+	ä½†ä¸åœ¨è¯¥ç›®å½•ä¸‹å°±ä¸èƒ½æ‰§è¡Œ
+3. hadoopçš„ç¯å¢ƒå˜é‡PATH---ã€‹ hadoopçš„å‘½ä»¤åœ¨å“ªèƒ½ä½¿ç”¨ bin: sbin
+   åœ¨æ ¹ç›®å½•ä¸‹çš„.bash_profileé…ç½®æ–‡ä»¶é‡Œé…ç½®
 	export HADOOP_HOME=/home/yyc/hadoop-2.7.3
-	ĞŞ¸ÄPATH£ºPATH=$PATH:$HOME/bin:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
-   Èô²âÊÔhadoopÃüÁî³É¹¦£¬Ôò»·¾³ÅäÖÃÍê³É
-4. hadoopÊ¹ÓÃmapreduce¼ÆËãÁËÎÒÃÇhadoopµÄÅäÖÃÎÄ¼şµÄÆ¥ÅäÄÚÈİ
-   #hadoopµÄÃüÁî£¬´ÓinputÎÄ¼şÀï¶ÁÈ¡£¬½á¹ûÊä³öµ½outputÖĞ£¬ÕıÔò±í´ïÊ½
+	ä¿®æ”¹PATHï¼šPATH=$PATH:$HOME/bin:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
+   è‹¥æµ‹è¯•hadoopå‘½ä»¤æˆåŠŸï¼Œåˆ™ç¯å¢ƒé…ç½®å®Œæˆ
+4. hadoopä½¿ç”¨mapreduceè®¡ç®—äº†æˆ‘ä»¬hadoopçš„é…ç½®æ–‡ä»¶çš„åŒ¹é…å†…å®¹
+   #hadoopçš„å‘½ä»¤ï¼Œä»inputæ–‡ä»¶é‡Œè¯»å–ï¼Œç»“æœè¾“å‡ºåˆ°outputä¸­ï¼Œæ­£åˆ™è¡¨è¾¾å¼
    hadoop jar ~/hadoop-2.7.3/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.3.jar 
 		grep input/ output/ 'dfs[a-z]+'
    
