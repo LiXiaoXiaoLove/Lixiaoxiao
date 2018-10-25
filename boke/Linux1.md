@@ -22,9 +22,9 @@
 
 ![图1.4](https://upload*images.jianshu.io/upload_images/14466013*bc28ff7bd903755f.png?imageMogr2/auto*orient/strip%7CimageView2/2/w/1240)
 	
-	*  永久修改（修改配置文件）
-		*  /etc/hostname文件
-		*  用途：保存全局网络设置，主要包括主机名信息
+	* 永久修改（修改配置文件）
+		* /etc/hostname文件
+		* 用途：保存全局网络设置，主要包括主机名信息
 		* 步骤
 			* 使用vi命令进入到配置文件
 			* 按i 键后进行编辑，之后先按esc 键退出编辑状态，在按:wq进行保存退出
