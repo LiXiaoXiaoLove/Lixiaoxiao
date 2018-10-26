@@ -1,6 +1,8 @@
 ### liunx
 
-* [Linux的起源与发展](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linux/Linux)
-* [Linux环境的安装与配置](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linux/VMware)
-* [Linux的网络配置](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linux/Linux1)
-* [Linux的命令基础](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linux/Linux2)
+* [Linux鐨勮捣婧愪笌鍙戝睍](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linux/Linux)
+* [Linux鐜鐨勫畨瑁呬笌閰嶇疆](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linux/VMware)
+* [Linux鐨勭綉缁滈厤缃甝(https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linux/Linux1)
+* [Linux鐨勫懡浠ゅ熀纭�](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linux/Linux2)
+
+* rfgfhfghfgj
