@@ -1,5 +1,3 @@
-## 目录操作命令
-
 * pwd
 	* 用途：查看工作目录
 ![](https://upload-images.jianshu.io/upload_images/14466013-3fb6f34188630f19.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

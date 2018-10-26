@@ -1,5 +1,3 @@
-## Linux的命令基本
-
 * 通用格式
 	* 命令字 [选项] [参数]
 		* 选项：用于调节命令的具体功能
@@ -10,7 +8,4 @@
 	* 查看帮助文档
 		* 内部命令：help + 命令
 		* 外部命令：man + 命令
-* [目录操作](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linux/neirong/mulu)
-* [文件操作](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linux/neirong/wenjian)
-* [文件内容操作](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linux/neirong/wenjianneirong)
-* [文件的压缩命令](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linux/neirong/yasuo)
+
