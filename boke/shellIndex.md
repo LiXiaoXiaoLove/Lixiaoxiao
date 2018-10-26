@@ -1,0 +1,5 @@
+* [shell基础](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/shell/shell)
+* [shell编程](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/shell/shell1)
+	* [案例1](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/shell/case1)
+	* [案例2](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/shell/case2)
+	* [案例3](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/shell/case3)
