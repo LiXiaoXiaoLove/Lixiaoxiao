@@ -6,7 +6,9 @@
 	3. 对这些文件一个个的进行解压
 	
 * eg：
+
 ```
+
 #在 /home/yyc/bin下新建一个shell文件
 touch lxxtar.sh
 #进入文件内进行编辑
@@ -24,7 +26,6 @@ do
 	tar -zxf $file
 	echo "$file已解压完成"
 done
-
 
 #运行该脚步
 . lxxtar.sh /home/yyc/tar/

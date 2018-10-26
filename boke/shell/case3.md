@@ -1,12 +1,13 @@
 ## 案例三
 * java环境的配置
+
 ```
+
 #在一个新的环境中，即没有java环境内配置，把目录切到/home/yyc/bin下
 #新建一个shell脚本
 > javaPath.sh
 #进入编辑
 vim javaPath.sh
-
 
 #!/bin/bash
 #从网上下载安装包

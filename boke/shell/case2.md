@@ -1,11 +1,11 @@
 ## 案例二
 * 创建多个用户
+
 ```
 #在/home/yyc/bin目录下创建一个shell脚本
 > createUser.sh
 #进入文件进行编辑
 vim createUser.sh
-
 
 #!/bin/bash
 
