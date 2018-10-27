@@ -12,7 +12,6 @@
 
 * Linux环境
 	* [虚拟机环境](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linux/VMware)
-		*
 	* [存储环境](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linux/peizhi)
 	* [网络环境](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linux/Linux1)
 
