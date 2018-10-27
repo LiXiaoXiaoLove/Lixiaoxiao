@@ -12,14 +12,16 @@
 3. 将namenode的伪分布式hadoop环境配好，配置步骤可查看如下网页
 ```
 [伪分布式](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/hadoop/hadoop2)
+
 * namenode的配置
+
 ```
 4. 伪分布式环境配好后，进入如下目录，将datanode写入该文件进行注册
    cd ~/hadoop-2.7.3/etc/hadoop
    vim slaves
 ```
 
-![slaves](https://upload-images.jianshu.io/upload_images/14466013-27dac49ceb1800eb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ ![slaves](https://upload-images.jianshu.io/upload_images/14466013-27dac49ceb1800eb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```
 5. 进入如下目录，进行编辑，将四个ip都设置上对应的别名
@@ -29,6 +31,7 @@
 ![hosts](https://upload-images.jianshu.io/upload_images/14466013-7f91595959fca374.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 * datanode的配置
+
 ```
 6. 运用shell的发送消息到所有会话，一下对三个打他弄的进行同步操作
 7. 将datanode设置成单点环境，单点hadoop环境设置步骤如下：
@@ -52,6 +55,7 @@
 ![免密操作](https://upload-images.jianshu.io/upload_images/14466013-a0fee5d789110e3b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 * 测试操作
+
 ```
 11. 用hadoop-daemon.sh start namenode 来启动namenode
     用hadoop-daemon.sh start datanode 来启动datanode
@@ -67,6 +71,7 @@
 ![image.png](https://upload-images.jianshu.io/upload_images/14466013-1684423ea3317a20.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 * 收尾工作
+
 ```
 14. 用完后要将namenode与datanode关闭
      hadoop-daemon.sh stop namenode

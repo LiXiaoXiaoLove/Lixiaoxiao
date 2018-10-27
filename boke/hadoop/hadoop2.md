@@ -1,6 +1,7 @@
 ## 伪分布式Hadoop
 
 * 准备工作
+
 ```
 1. 关闭防火墙
    systemctl stop firewalldcd 
@@ -8,7 +9,9 @@
    
 2. 单点环境，操作步骤如下
 ```
+
 [单点配置](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/hadoop/hadoop)
+
 * 配置5个文件
 	* 进入到 cd ~/hadoop-2.7.3/etc/hadoop/下修改配置
 	
@@ -86,11 +89,14 @@
 ```
 
 * 测试工作
+
 ```
 6. 启动
    start-all.sh 
+   
 7. 查看结果
    jps
+   
 8. 关闭
    stop-all.sh
 ```
