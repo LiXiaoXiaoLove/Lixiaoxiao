@@ -40,10 +40,10 @@
 ```
 
 * Eg
+
 ```
 	L1:chown java2 aa.txt(用户java1)
 	L2:
-	
 	
 ```
 

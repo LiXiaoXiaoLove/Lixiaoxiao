@@ -30,7 +30,6 @@ $n     第n列
 print  输出
 
 printf 输出
-
 ```
 
 * awk的扩展格式
