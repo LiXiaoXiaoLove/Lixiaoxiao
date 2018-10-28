@@ -34,7 +34,7 @@
 * datanode的配置
 
 ```
-6. 运用shell的发送消息到所有会话，一下对三个打他弄的进行同步操作
+6. 运用shell的发送消息到所有会话，一下对三个进行同步操作
 7. 将datanode设置成单点环境，单点hadoop环境设置步骤如下：
 ```
 [单点配置](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/hadoop/hadoop)
