@@ -18,6 +18,7 @@
 
 ```
 4. 伪分布式环境配好后，进入如下目录，将datanode写入该文件进行注册
+    该步在给datanode传完文件后在操作，即datanode不需要该步的操作
    cd ~/hadoop-2.7.3/etc/hadoop
    vim slaves
 ```
