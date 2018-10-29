@@ -79,3 +79,12 @@
      hadoop-daemon.sh stop namenode
 	 hadoop-daemon.sh stop datanode
 ```
+
+* 端口被占用问题
+
+```
+1. 查看被占用的端口
+   netstat -tunlp | grep 端口号(或java)
+2. 被占用时，杀死被占用的端口
+   kill -9 进程号(pid)
+```
