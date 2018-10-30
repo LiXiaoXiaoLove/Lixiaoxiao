@@ -11,29 +11,33 @@
 
 ## HDFS的shell命令
 
+```
 * hadoop fs -ls
+```
 	
 ![image.png](https://upload-images.jianshu.io/upload_images/14466013-f2e60f2c3b36c31e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-* hadoop fs -mkdir -p /aaa/bbb/ccc
+```
+1. hadoop fs -mkdir -p /aaa/bbb/ccc
 
-* 将本地的文件剪切复制到hdfs
-* hadoop fs -moveFromLocal ~/a.txt /input 
+2. 将本地的文件剪切复制到hdfs
+	hadoop fs -moveFromLocal 本地目录/hdfs目录 hdfs目录/本地目录 
 
-* 将a.txt的内容追加到result.txt中
-* hadoop fs -appendToFile ~/a.txt /input/result.txt	
+3. 将本地目录的内容追加到hdfs目录中
+	hadoop fs -appendToFile 本地目录 hdfs的目录	
 
-* hadoop fs -cat /input/*
+4. hadoop fs -cat hdfs的目录
 
-* 从hdfs下载文件，下载到当前目录下
-* hadoop fs -get /hdfs的目录
+5. 从hdfs下载文件，下载到当前目录下
+	hadoop fs -get hdfs的目录
 
-* 上传文件
-* hadoop fs -put /本地目录 /hdfs的目录
+6. 上传文件
+	hadoop fs -put 本地目录 hdfs的目录
 
-* 删除文件或文件夹
-* hadoop fs -rm -r 路径
-
+7. 删除文件或文件夹
+	hadoop fs -rm -r hdfs的路径
+	
+```
 
 
 ## hdfs的工作机制
