@@ -17,5 +17,5 @@
 
 
 
-* [杜儿](https://dsm9966.github.io/notebook/)
-* [华儿](http://47.106.73.53/LanouClass/?tdsourcetag=s_pctim_aiomsg)
+* [杜](https://dsm9966.github.io/notebook/)
+* [华](http://47.106.73.53/LanouClass/?tdsourcetag=s_pctim_aiomsg)
