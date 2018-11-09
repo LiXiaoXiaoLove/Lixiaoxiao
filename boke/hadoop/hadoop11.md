@@ -49,7 +49,7 @@
 * 心跳：datanode会定期向namenode汇报所保存的文件的信息，
         而namenode负责保持文件的副本数量
 
-* HDFS的工作机制对客户似乎透明的，客户通过请求namenode来访问HDFS
+* HDFS的工作机制对客户是透明的，客户通过请求namenode来访问HDFS
 
 * HDFS写数据
 
