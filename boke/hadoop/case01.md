@@ -4,15 +4,15 @@
 
 1. 三个源文件，数据如下：
 
-	1. flow01.log
+	* flow01.log
 	
 ![](https://upload-images.jianshu.io/upload_images/14863832-8d483de6dd2c27bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	
-	2. flow02.log
+	* flow02.log
 	
 ![](https://upload-images.jianshu.io/upload_images/14863832-0e83e1ce5dd46350.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	
-	3. flow03.log
+	* flow03.log
 	
 ![](https://upload-images.jianshu.io/upload_images/14863832-8d483de6dd2c27bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -20,7 +20,7 @@
 
 * 代码
 
-1. Bean类
+	1. Bean类
 
 ```
 
@@ -103,7 +103,7 @@ public class JiChuBean implements Writable{
 
 ```
 
-2. map类
+	2. map类
 
 ```
 
@@ -139,7 +139,7 @@ public class JiChuMapper extends Mapper<Object,Text,Text, JiChuBean>{
 
 ```
 
-3. partition类
+	3. partition类
 
 ```
 
@@ -174,7 +174,7 @@ public class JiChuPartitioner extends Partitioner<Text, JiChuBean>{
 
 ```
 
-4. combiner类
+	4. combiner类
 
 ```
 
@@ -201,7 +201,7 @@ public class JiChuCombiner extends Reducer<Text, JiChuBean, Text, JiChuBean>{
 
 ```
 
-5. reduce类
+	5. reduce类
 
 ```
 
@@ -223,7 +223,7 @@ public class JiChuReducer extends Reducer<Text,JiChuBean, Text,JiChuBean>{
 
 ```
 
-6. driver类(Test类)
+	6. driver类(Test类)
 
 ```
 
@@ -292,19 +292,19 @@ public class JiChuTest {
 
 * 结果：分四个文件(四个区)
 
-1. 第一个
+	- 第一个
 
 ![](https://upload-images.jianshu.io/upload_images/14863832-1b90a0a93993eb56.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-2. 第二个
+	- 第二个
 
 ![](https://upload-images.jianshu.io/upload_images/14863832-b836a698f53dc81e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-3. 第三个
+	- 第三个
 
 ![](https://upload-images.jianshu.io/upload_images/14863832-1b2d9dbe42c22f62.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-4. 第四个
+	- 第四个
 
 ![](https://upload-images.jianshu.io/upload_images/14863832-0426f4162764a0b9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
