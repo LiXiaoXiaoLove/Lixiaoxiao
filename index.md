@@ -4,7 +4,7 @@
 * [Linux](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/linuxIndex) 
 * [shell](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/shellIndex)
 * [hadoop](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/hadoopIndex)
-* [hadoop](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/fileIndex)
+* [file](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/fileIndex)
 * [github](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/github_build.md)
 
 

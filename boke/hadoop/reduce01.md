@@ -1,8 +1,16 @@
 ## reduce的控制台
 
-```
+* 主函数
 
+```
+//  有异常抛出
 	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException, URISyntaxException {
+
+```	
+
+* 配置文件
+
+```	
 //		配置文件
 //		Configuration 配置
 		Configuration conf = new Configuration();
@@ -11,6 +19,12 @@
 		conf.set("name","hdfs://192.168.107.143:9000");
 //		设置要使用的用户名，是键值对（key,value）
 		System.setProperty("HADOOP_USER_NAME","lxx");
+		
+```	
+
+* 获取文件信息
+
+```	
 		
 //		获取所有的被使用的文件
 //		GenericOptionsParser 泛型选项解析器
@@ -25,6 +39,12 @@
 //			按照惯例，非零状态代码指示异常终止。
 			System.exit(2);
 		}
+		
+```
+
+* job的所有操作
+
+```		
 		
 //		创建一个工作
 		Job job = Job.getInstance(conf,"name");
@@ -63,6 +83,11 @@
 //		并且这里所设置的数要大于等于你的分区数，否则会出现异常
 		job.setNumReduceTasks(4);
 		
+```
+
+* 提交job与相关文件
+
+```		
 		
 //		获取所有的输入文件（所有的文件中最后一个是输出地址，其他的全是输入文件）
 		for (int i = 0; i < otherArgs.length - 1; i++) {
