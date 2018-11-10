@@ -16,3 +16,7 @@
 * hadoop的基本原理
 
 	* [HDFS的基本原理](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/hadoop/hadoop11)
+	
+* reduce的相关知识
+	
+	* [MapReduce的控制台](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/hadoop/reduce01)
