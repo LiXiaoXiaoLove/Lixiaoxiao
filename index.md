@@ -5,6 +5,7 @@
 * [shell](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/shellIndex)
 * [hadoop](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/hadoopIndex)
 * [file](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/fileIndex)
+* [hive](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/hiveIndex)
 * [github](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/github_build.md)
 
 
