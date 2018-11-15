@@ -23,7 +23,11 @@
 因为hive表所对应的数据是存储在hdfs上的，所以真正的数据是存在datanode上的，
 而要找到datanode上的数据，我们就需要把这个关联进行记录
 
+```
+
 ## 内部表与外部表的区别：
+
+```
 
 1.1 创建内部表
     create table innerlxx(id int,name string) 
