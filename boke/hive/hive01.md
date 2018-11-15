@@ -3,13 +3,13 @@
 * 用yum安装wget
 * sudo yum -y install wget
 
-* 用wget从网上下载mysql
+* 用wget从网上下载依赖
 * wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
 
-* 
+* 用rpm格式安装
 * sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
 
-* 启动mysql服务
+* 安装mysql-server
 * sudo yum -y install mysql-server
 
 * 安装mysql
@@ -18,12 +18,12 @@
 * 启动mysql
 * systemctl start mysqld
 
+* 查看mysql的状态
+* systemctl status mysqld
+
 * 登录mysql
 * mysql -u root -p(没密码)
 * 没密码的时候直接敲回车就进入了，有密码的时候敲密码
-
-* 查看mysql的状态
-* systemctl status mysqld
 
 * 解压安装包
 * tar -zxf apache-hive-1.2.1-bin.tar.gz
@@ -80,10 +80,10 @@
 
 * 修改密码（登录进去后修改）
 
-* 7.5版本后的用该句（后面的";"分号不要丢）
+* 5.7版本后的用该句（后面的";"分号不要丢）
 * UPDATE mysql.user SET authentication_string=PASSWORD('新密码') where USER='root';
 
-* 7.5版本之前的用这句（后面的";"分号不要丢）
+* 5.7版本之前的用这句（后面的";"分号不要丢）
 * UPDATE mysql.user SET Password=PASSWORD('新密码') where USER='root’;
 
 * 修改完后刷新一下

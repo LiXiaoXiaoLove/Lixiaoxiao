@@ -21,3 +21,4 @@
 	
 	* [MapReduce的控制台](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/hadoop/reduce01)
 	* [基础知识的全汇集](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/hadoop/case01)
+	* [mapreduce的format](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/hadoop/format)
