@@ -27,6 +27,8 @@
 
 ```
 
+![](https://upload-images.jianshu.io/upload_images/14863832-12fd074cf269898d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ```
 
 4. 执行 . /etc/profiles 该文件，让其立即生效
@@ -39,8 +41,10 @@
 
 ```
 
+![](https://upload-images.jianshu.io/upload_images/14863832-77f877d9624de466.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ```
-6. 安装mysql 
+6. 安装mysql(因为hive中默认的数据库derby有很多缺陷，所以我们就自己安装mysql数据库)
 6.1 先从网上下载依赖关系
     wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
     若wget不是命令，就先安装wget
