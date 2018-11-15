@@ -1,5 +1,7 @@
 ## hive使用
 
+```
+
 1 cli（shell终端命令行）
 1.1 先使用hive命令进入hive环境
 1.2 在进行select等操作
@@ -12,7 +14,11 @@
     按指令输入用户名与密码（若没密码敲回车）
 2.4 进行select等操作
 
+```
+
 ## hive中为什么要有元数据库（mysql）？
+
+```
 
 因为hive表所对应的数据是存储在hdfs上的，所以真正的数据是存在datanode上的，
 而要找到datanode上的数据，我们就需要把这个关联进行记录
@@ -34,7 +40,11 @@
 1.6 load data inpath '/dbdata/women.log' into table exlxx;
    从hdfs上进行数据导入就是将hdfs上的数据移动到table所使用的目录下，（即元数据消失）
 
+```
+
 ## 分区表
+
+```
 
 相当于在表中又分了小表
 作用是可以减少我们有一定条件时的查询的数据量，提升我们的查询效率
@@ -50,7 +60,11 @@
     show partitions lxxpart;
     show partitions 表名;
 
+```
+
 ## 动态分区
+
+```
 
 1. 使用场景
    当我们想要对数据进行分区的时候，你能拿到的数据不一定是已经分好区的文件，
@@ -76,3 +90,5 @@ user.log
 2.5 默认使用的是严格模式，是不允许动态分区的，所以我们需要在命令行执行
     set hive.exec.dynamic.partition.mode=nonstrict
 2.6 使用动态分区会将结果集的最后一个作为分区条件，所以查询时要注意
+
+```

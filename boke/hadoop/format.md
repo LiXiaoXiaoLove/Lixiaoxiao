@@ -1,7 +1,9 @@
 ## outputFormat
 
-学会何如自定义
-结果输出到哪，以什么形式输出
+* 学会何如自定义
+* 结果输出到哪，以什么形式输出
+
+```
 
 1. 在driver中设置job.setOutputFormatClass(）
 2. 创建自定义的XXOutputFormat extends FileOutputFormat
@@ -15,9 +17,13 @@
     在这里进行逻辑判断决定往哪个输出流进行写入
 5.3 close(TaskAttemptContext context)方法：用来关闭流，也是job的结束
 
+```
+
 ## inputFormat
 
-以什么形式输入，这时候map形参要注意对应
+* 以什么形式输入，这时候map形参要注意对应
+
+```
 
 1. driver job.setOutputFormatClass()
 2. 创建自定义的XXInputFormat extends FileInputFormat<>
@@ -32,3 +38,5 @@
 5.3 getCurrentKey() map方法传入的key值是从这个方法中获取的
 5.4 getCurrentValue() map方法传入的vlaue值是从这个方法中获取的
 5.5 getProgress() 获取进度的方法
+
+```

@@ -1,4 +1,7 @@
 ## 今天学的命令
+
+```
+
 1. 查询表
    select * from exlxx; 
 2. 清空表
@@ -47,3 +50,5 @@
     load data inpath 'hdfs://namenode1:9000/uu.log' into table man;
 22. 把hdfs上的文件传到数据库上（hdfs上的文件消失）
     load data inpath 'hdfs://192.168.107.143/uu.log' into table mans;
+
+```
