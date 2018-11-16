@@ -232,6 +232,8 @@
 
 ```
 
+* 步骤
+
 ```
 
 1. 新建表
@@ -271,14 +273,16 @@ B	2015-02	5
 
 ```
 
+* 步骤
+
 ```
 
-select *
-from 
-(select ke,month,sum(accesssum) from access group by ke,month) a1
-join
-(select ke,month,sum(accesssum) from access group by ke,month) b1
-on a1.ke=b1.ke;
+1. select *
+   from 
+  (select ke,month,sum(accesssum) from access group by ke,month) a1
+  join
+  (select ke,month,sum(accesssum) from access group by ke,month) b1
+  on a1.ke=b1.ke;
 
 ```
 
@@ -286,42 +290,42 @@ on a1.ke=b1.ke;
 
 ```
 
-select a1.*,sum(cnt)
-from 
-(select ke,month,sum(accesssum) as sum from access group by ke,month) a1
-join
-(select ke,month,sum(accesssum) as cnt from access group by ke,month) b1
-on a1.ke=b1.ke
-group by a1.ke,a1.month,a1.sum;
+2. select a1.*,sum(cnt)
+   from 
+   (select ke,month,sum(accesssum) as sum from access group by ke,month) a1
+   join
+   (select ke,month,sum(accesssum) as cnt from access group by ke,month) b1
+   on a1.ke=b1.ke
+   group by a1.ke,a1.month,a1.sum;
 
 ```
 
 ![image.png](https://upload-images.jianshu.io/upload_images/14863832-03d8e98b9cc00ddd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```
-
-select *
-from 
-(select ke,month,sum(accesssum) from access group by ke,month) a1
-join
-(select ke,month,sum(accesssum) from access group by ke,month) b1
-on a1.ke=b1.ke
-where a1.month >= b1.month;
+ 
+3. select *
+   from 
+   (select ke,month,sum(accesssum) from access group by ke,month) a1
+   join
+   (select ke,month,sum(accesssum) from access group by ke,month) b1
+   on a1.ke=b1.ke
+   where a1.month >= b1.month;
 
 ```
 
 ![image.png](https://upload-images.jianshu.io/upload_images/14863832-df33ca2f542d6f8a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```
-
-select a1.*,sum(cnt)
-from 
-(select ke,month,sum(accesssum) as sum from access group by ke,month) a1
-join
-(select ke,month,sum(accesssum) as cnt from access group by ke,month) b1
-on a1.ke=b1.ke
-where a1.month >= b1.month
-group by a1.ke,a1.month,a1.sum;
+ 
+4. select a1.*,sum(cnt)
+   from 
+   (select ke,month,sum(accesssum) as sum from access group by ke,month) a1
+   join
+   (select ke,month,sum(accesssum) as cnt from access group by ke,month) b1
+   on a1.ke=b1.ke
+   where a1.month >= b1.month
+   group by a1.ke,a1.month,a1.sum;
 
 ```
 
