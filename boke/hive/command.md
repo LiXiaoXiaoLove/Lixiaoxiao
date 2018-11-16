@@ -67,7 +67,7 @@
     insert into woman
     select * from man;
 19.  新建一份表women ，并把women里的name的那一列改名为username拷贝到women表中
-     create women as
+     create table women as
      select name as username from woman;
 	 
 ```
@@ -156,6 +156,16 @@
 
 ### 使用数组
 
+* 元数据arrays.log
+
+```
+
+战狼2,吴京:吴刚:余男,2017-08-16
+三生三世十里桃花,刘亦菲:痒痒,2017-08-20
+羞羞的铁拳,沈腾:玛丽:艾伦,2017-12-20
+
+```
+
 ```
 
 1. create table movies(name string,actors array<string>,times date )
@@ -178,6 +188,16 @@
 
 ### 使用map
 
+* 原数据表maps.log
+```
+
+1,zhangsan,father:xiaoming#mother:xiaohuang#brother:xiaoxu,28
+2,lisi,father:mayun#mother:huangyi#brother:guanyu,22
+3,wangwu,father:wangjianlin#mother:ruhua#sister:jingtian,29
+4,mayun,father:mayongzhen#mother:angelababy,26
+
+```
+
 ```
 
 1. create table maps(id int,name string,family map<string,string>,age int)
@@ -197,4 +217,113 @@
 ![map](https://upload-images.jianshu.io/upload_images/14863832-e251fbd120fd4ef0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![selectMap](https://upload-images.jianshu.io/upload_images/14863832-8cc83d72eea9ae5a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+### 使用结构体
+
+结构体
+
+* 新建数据structs.log
+
+```
+
+1,zhangsan,18:male:beijing
+2,lisi,28:female:shanghai
+
+```
+
+```
+
+1. 新建表
+   create table structs(id int,name string,info struct<age:int,gender:string,addr:string>)
+   row format
+   delimited fields terminated by ','
+   collection items terminated by ':';
+
+2.导入数据
+  load data inpath '/dbdata/structs.log' into table structs;
+
+3.查看结构体
+  select id,name,info.age from structs;
+
+```
+
+![结构体](https://upload-images.jianshu.io/upload_images/14863832-62ef5f7a2839a9d4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+### 作业1
+
+* 元数据access.log
+
+```
+
+访客	月份	访问次数
+A	2015-01	5
+A	2015-01	15
+B	2015-01	5
+A	2015-01	8
+B	2015-01	25
+A	2015-01	5
+A	2015-02	4
+A	2015-02	6
+B	2015-02	10
+B	2015-02	5
+
+```
+
+```
+
+select *
+from 
+(select ke,month,sum(accesssum) from access group by ke,month) a1
+join
+(select ke,month,sum(accesssum) from access group by ke,month) b1
+on a1.ke=b1.ke;
+
+```
+
+![image.png](https://upload-images.jianshu.io/upload_images/14863832-868df3b6e67e821c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+```
+
+select a1.*,sum(cnt)
+from 
+(select ke,month,sum(accesssum) as sum from access group by ke,month) a1
+join
+(select ke,month,sum(accesssum) as cnt from access group by ke,month) b1
+on a1.ke=b1.ke
+group by a1.ke,a1.month,a1.sum;
+
+```
+
+![image.png](https://upload-images.jianshu.io/upload_images/14863832-03d8e98b9cc00ddd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+```
+
+select *
+from 
+(select ke,month,sum(accesssum) from access group by ke,month) a1
+join
+(select ke,month,sum(accesssum) from access group by ke,month) b1
+on a1.ke=b1.ke
+where a1.month >= b1.month;
+
+```
+
+![image.png](https://upload-images.jianshu.io/upload_images/14863832-df33ca2f542d6f8a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+```
+
+select a1.*,sum(cnt)
+from 
+(select ke,month,sum(accesssum) as sum from access group by ke,month) a1
+join
+(select ke,month,sum(accesssum) as cnt from access group by ke,month) b1
+on a1.ke=b1.ke
+where a1.month >= b1.month
+group by a1.ke,a1.month,a1.sum;
+
+```
+
+![image.png](https://upload-images.jianshu.io/upload_images/14863832-293af08e4a771f4c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
