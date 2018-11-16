@@ -189,6 +189,7 @@
 ### 使用map
 
 * 原数据表maps.log
+
 ```
 
 1,zhangsan,father:xiaoming#mother:xiaohuang#brother:xiaoxu,28
@@ -197,6 +198,8 @@
 4,mayun,father:mayongzhen#mother:angelababy,26
 
 ```
+
+* 步骤
 
 ```
 
