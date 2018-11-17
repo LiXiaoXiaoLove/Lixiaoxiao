@@ -15,7 +15,5 @@
 
 
 
-
-
-
-* [more](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/more)
+* [大环境](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/huanjing)
+* [朋友](https://lixiaoxiaolove.github.io/Lixiaoxiao/boke/more)
