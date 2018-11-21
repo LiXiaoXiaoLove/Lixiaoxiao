@@ -138,7 +138,36 @@
 
 ```
 
-5. 免密工作
+5. 想用yarn，需要配置/hadoop-2.7.3/etc/hadoop下的yarn-site.xml
+
+ <property>
+
+    <name>yarn.resourcemanager.address</name>
+
+    <value>namenode01:8032</value>
+
+  </property>
+
+  <property>
+
+    <name>yarn.resourcemanager.scheduler.address</name>
+
+    <value>namenode01:8030</value>
+
+  </property>
+
+  <property>
+
+    <name>yarn.resourcemanager.resource-tracker.address</name>
+   <value>namenode01:8031</value>
+
+  </property>
+
+```
+
+```
+
+6. 免密工作
    ssh-keygen                 用来生成密钥（需要敲三次回车）
    ssh-copy-id 用户名@主机IP  逐个设置免密工作
    
@@ -148,11 +177,11 @@
 
 ```
    
-6. 端口占用问题
+7. 端口占用问题
    netstat -tunlp | grep 端口号(或java)  查看被占用的端口
    kill -9 进程号(pid)                   杀死被占用的端口
    
-7. 安全模式
+8. 安全模式
    hdfs dfsadmin -safemode leave         离开安全模式
 
 ```
