@@ -213,21 +213,32 @@ user.log
 
 ## collect_set()函数
 
+* 将某个字段在一组中的所有值形成一个集合（数组）返回
+
 ![image.png](https://upload-images.jianshu.io/upload_images/14466013-bf85d9f43c33bf83.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![image.png](https://upload-images.jianshu.io/upload_images/14466013-b522ab6f82aafc06.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![image.png](https://upload-images.jianshu.io/upload_images/14466013-42798a695d59f257.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+## 行转列函数:explode()
+
+* 数组字段炸裂(拆分数组字段)
+
 ![image.png](https://upload-images.jianshu.io/upload_images/14466013-c7a50fe070c13045.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-## explode()函数：数组字段炸裂
+# 表生成函数：lateral view
+
+* lateral view 相当于两个表在join
+* 左表：是原表
+* 右表：是explode(某个集合字段)之后产生的表
+* 而且：这个join只在同一行的数据间进行
 
 ![image.png](https://upload-images.jianshu.io/upload_images/14466013-05a2601b037fa9ab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![image.png](https://upload-images.jianshu.io/upload_images/14466013-14d8b32a2ee63ab0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-## json解析函数：表生成函数
+## json解析函数：
 
 ![image.png](https://upload-images.jianshu.io/upload_images/14466013-e4e5a04c51f41bbe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -242,4 +253,6 @@ user.log
 ![image.png](https://upload-images.jianshu.io/upload_images/14466013-1f51a78cfd473727.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![image.png](https://upload-images.jianshu.io/upload_images/14466013-6b1ce7386434dd1b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+## 级联求和：sum() over()
 
